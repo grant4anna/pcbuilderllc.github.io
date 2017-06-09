@@ -2,9 +2,10 @@ body {
 	background: #999;
 }
 
- h1 {
- 	text-align: center;
- }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arimo", arial, verdana, sans-serif;
+    font-weight: normal;
+}
 
  ul.a {
  	list-style-type: none;
@@ -29,4 +30,10 @@ li a.a{
 title {
 
 	background-image: url(logo.ico);
+}
+#headline {
+    text-align:center;
+}
+.menu {
+    font-family: "Arimo", Arial, Verdana, sans-serif:
 }
