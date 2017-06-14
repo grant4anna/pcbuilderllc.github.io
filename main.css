@@ -1,32 +1,25 @@
+/*----------IMPORTS----------*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
 body {
 	background: #999;
 }
 
- h1 {
- 	text-align: center;
- }
-
- ul.a {
- 	list-style-type: none;
- 	margin: 0;
- 	padding: 0;
- 	overflow: hidden;
- 	background-color: #333;
- }
-
-li.a{
-	float: left;
-}
-
-li a.a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arimo", arial, verdana, sans-serif;
+    font-weight: normal;
 }
 
 title {
-
 	background-image: url(logo.ico);
+}
+#headline {
+    text-align:left;
+    background-color:#000000;
+}
+#banner {
+    text-align:center;
+}
+.menu {
+    font-family: "Arimo", Arial, Verdana, sans-serif:
 }
